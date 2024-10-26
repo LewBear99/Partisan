@@ -17,7 +17,7 @@ h1, h2, h3, p, input {
 }
 
 header {
-    background-image: url('images/PartisanImages/2Qdl.gif'); /* Background GIF */
+    background-image: url('2Qdl.gif'); /* Background GIF */
     background-size: cover; /* Cover the entire header */
     background-position: center; /* Center the background image */
     color: black; /* Change text color to black for contrast */
