@@ -4,6 +4,8 @@ html, body {
 }
 
 body {
+  padding-left: 50px;
+  padding-right: 50px;
   font-family: Sixtyfour+Convergence, sans-serif;
   background-color: black; /* Set body background to black */
   display: flex; /* Use flexbox to allow main to fill remaining space */
@@ -17,7 +19,7 @@ h1, h2, h3, p, input {
 }
 
 header {
-    background-image: url('2Qdl.gif'); /* Background GIF */
+    background-image: url('images/PartisanImages/2Qdl.gif'); /* Background GIF */
     background-size: cover; /* Cover the entire header */
     background-position: center; /* Center the background image */
     color: black; /* Change text color to black for contrast */
@@ -28,6 +30,9 @@ header {
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: add a shadow for better readability */
+    margin-bottom: 30px;
+    border-style: solid solid solid solid;
+    border-color: white;
 }
 
 
@@ -70,8 +75,11 @@ main {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 55px;
+  border-color: white;
   margin-bottom: 0.5rem;
+  border-style: solid solid solid solid;
+  border-color: white;
 }
 
 .inventor h2 {
@@ -109,4 +117,6 @@ footer {
     padding: 1rem;
     background-color: #333; /* Dark background for footer */
     color: white; /* White text for footer */
+    border-style: solid solid solid solid;
+    border-color: white;
 }
